@@ -1,0 +1,6 @@
+[B]1.0.1:[/B] 2.6.2016
+- oprava stahování
+- doplněny kategorie pro filmy
+- doplněny kategorie pro seriály
+[B]1.0.0:[/B] 1.6.2016
+Initial version - migration from plugin.video.tv.sosac.ph

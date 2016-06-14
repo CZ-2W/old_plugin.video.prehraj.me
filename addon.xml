@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addon id="plugin.video.prehraj.me" name="Přehraj.mě" provider-name="2W contrib L. Zoubek + jondas" version="1.0.2">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="script.module.stream.resolver" version="1.6.38" />
+        <import addon="script.common.plugin.cache" version="2.5.0" />
+    </requires>
+    <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
+        <provides>video</provides>
+    </extension>
+    <extension library="service.py" point="xbmc.service"  start="startup"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">prehraj.me</summary>
+        <summary lang="cs">prehraj.me</summary>
+        <description lang="en">Watch online movies and tv shows from www.prehraj.me.</description>
+        <description lang="cs">Sledujte online videa a serialy z www.prehraj.me.</description>
+        <platform>all</platform>
+        <source>https://github.com/CZ-2W/plugin.video.prehraj.me</source>
+    </extension>
+</addon>
